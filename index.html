@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIE Blueprint Editor - Final V8</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header-toolbar">
+        <h3>K1llly Editör</h3>
+        <label>Arkaplan:</label>
+        <input type="color" id="color-picker" value="#f0f0f0">
+        <div class="separator"></div>
+        <button id="create-giris" class="btn-tool">Giriş Bloğu</button>
+        <button id="create-gelisme" class="btn-tool">Gelişme Bloğu</button>
+        <button id="create-sonuc" class="btn-tool">Sonuç Bloğu</button>
+        <div class="separator"></div>
+        <button id="clear-all" class="btn-tool btn-danger">Tümünü Temizle</button>
+        
+        <span class="info">Pan: Boşluğa tıkla sürükle | Zoom: Tekerlek</span>
+    </div>
+
+    <div id="viewport">
+        <div id="world">
+            <svg id="connections-layer"></svg>
+            <div id="blocks-layer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
