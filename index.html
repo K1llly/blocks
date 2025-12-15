@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K1llly Blueprint Editor</title>
+    <title>K1llly Blueprint Editor - V11</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,7 +17,13 @@
         <button id="create-gelisme" class="btn-tool">Gelişme Bloğu</button>
         <button id="create-sonuc" class="btn-tool">Sonuç Bloğu</button>
         <div class="separator"></div>
-        <button id="clear-all" class="btn-tool btn-danger">Tümünü Temizle</button>
+        
+        <button id="import-btn" class="btn-tool" style="background-color: #f39c12; border-color: #e67e22;">Yükle</button>
+        <input type="file" id="file-input" style="display: none;" accept=".json">
+        
+        <button id="export-btn" class="btn-tool" style="background-color: #27ae60; border-color: #219150;">Kaydet</button>
+        <div class="separator"></div>
+        <button id="clear-all" class="btn-tool btn-danger">Temizle</button>
         
         <span class="info">Pan: Boşluğa tıkla sürükle | Zoom: Tekerlek</span>
     </div>
