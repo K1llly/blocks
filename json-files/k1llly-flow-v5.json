@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "projectName": "K1LLLY_Flow_v5",
+    "createdAt": "2025-12-15T12:38:57.514Z",
+    "version": "5.0"
+  },
+  "blocks": [
+    {
+      "id": 1,
+      "type": "giris",
+      "position": {
+        "x": 791.5,
+        "y": 380
+      },
+      "data": {
+        "title": "GIRIS 1",
+        "body": "İçerik...",
+        "color": "rgb(52, 152, 219)"
+      }
+    },
+    {
+      "id": 2,
+      "type": "gelisme",
+      "position": {
+        "x": 791.5,
+        "y": 380
+      },
+      "data": {
+        "title": "GELISME 2",
+        "body": "İçerik...",
+        "color": "rgb(241, 196, 15)"
+      }
+    },
+    {
+      "id": 3,
+      "type": "sonuc",
+      "position": {
+        "x": 791.5,
+        "y": 380
+      },
+      "data": {
+        "title": "SONUC 3",
+        "body": "İçerik...",
+        "color": "rgb(155, 89, 182)"
+      }
+    }
+  ],
+  "connections": []
+}
